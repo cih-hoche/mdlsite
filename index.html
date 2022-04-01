@@ -10,22 +10,32 @@
     <body>
         <header>
             <div class="headercontent">
-                <h1>Maison des lycéens de Hoche</h1>
+                <h1>
+                    <span s1>Maison</span> <span s2>des</span> <span s3>lycéens</span> <span s4>de</span> <span s5>Hoche</span>
+                </h1>
                 <img src="/assets/img/logo.png" alt="Logo MDL">
             </div>
         </header>
         <nav>
             <ul>
-                <li active><a href="/">Accueil</a></li>
-                <li><a href="/pages/projets.html">Nos projets</a></li>
-                <li><a href="/pages/associations.html">Les associations</a></li>
-                <li><a href="/pages/contact.html">Nous contacter</a></li>
+                <li active id="nav_home"><a href="/">Accueil</a></li>
+                <li id="nav_projects"><a href="/pages/projets.html">Nos projets</a></li>
+                <li id="nav_associations"><a href="/pages/associations.html">Les associations</a></li>
+                <li id="nav_contact"><a href="/pages/contact.html">Nous contacter</a></li>
             </ul>
         </nav>
-        <article>
+        <article id="home_content">
             <h1>Bienvenue sur le site de la MDL</h1>
             <h2>Qui sommes nous ?</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut tempore, pariatur odit adipisci nobis aspernatur quo corporis, aperiam ullam omnis minima. Laboriosam unde optio quidem, rem voluptate ducimus corrupti voluptas?</p>
+            <p>
+                La Maison des Lycéens est une association indépendante hébergée par le Lycée Hoche.<br>
+                Elle est composée d'un bureau, d'un conseil d'administration et de membres actifs.<br>
+                La MDL possède son propre budget, anciennement dédié au Foyer Socio-Educatif, qui lui a été reversé.<br>
+                Ainsi, elle a pour but de proposer des projets pour les lycéens (sorties, partenariats, conférences...), mais aussi d'aider les autres associations et clubs dans le financement de leurs projets.
+            </p>
+            <h2>Galerie</h2>
+            <div id="home_gallery"></div>
         </article>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>

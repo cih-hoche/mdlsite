@@ -10,19 +10,21 @@
     <body>
         <header>
             <div class="headercontent">
-                <h1>Maison des lycéens de Hoche</h1>
+                <h1>
+                    <span s1>Maison</span> <span s2>des</span> <span s3>lycéens</span> <span s4>de</span> <span s5>Hoche</span>
+                </h1>
                 <img src="/assets/img/logo.png" alt="Logo MDL">
             </div>
         </header>
         <nav>
             <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/pages/projets.html">Nos projets</a></li>
-                <li active><a href="/pages/associations.html">Les associations</a></li>
-                <li><a href="/pages/contact.html">Nous contacter</a></li>
+                <li id="nav_home"><a href="/">Accueil</a></li>
+                <li id="nav_projects"><a href="/pages/projets.html">Nos projets</a></li>
+                <li active id="nav_associations"><a href="/pages/associations.html">Les associations</a></li>
+                <li id="nav_contact"><a href="/pages/contact.html">Nous contacter</a></li>
             </ul>
         </nav>
-        <article>
+        <article id="associations_content">
             <h1>Les associations</h1>
             <p>La MDL a pour but d'héberger et de subventionner les associations et clubs du Lycée Hoche dans leurs projets :</p>
             <ul>
@@ -35,5 +37,6 @@
             </ul>
             <p>De plus, la MDL travaille en étroite collaboration avec le <a href="https://instagram.com/cvl_hoche_/">Conseil de la vie lycéenne (CVL)</a></p>
         </article>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>

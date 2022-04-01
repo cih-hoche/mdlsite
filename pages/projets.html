@@ -10,19 +10,21 @@
     <body>
         <header>
             <div class="headercontent">
-                <h1>Maison des lycéens de Hoche</h1>
+                <h1>
+                    <span s1>Maison</span> <span s2>des</span> <span s3>lycéens</span> <span s4>de</span> <span s5>Hoche</span>
+                </h1>
                 <img src="/assets/img/logo.png" alt="Logo MDL">
             </div>
         </header>
         <nav>
             <ul>
-                <li><a href="/">Accueil</a></li>
-                <li active><a href="/pages/projets.html">Nos projets</a></li>
-                <li><a href="/pages/associations.html">Les associations</a></li>
-                <li><a href="/pages/contact.html">Nous contacter</a></li>
+                <li id="nav_home"><a href="/">Accueil</a></li>
+                <li active id="nav_projects"><a href="/pages/projets.html">Nos projets</a></li>
+                <li id="nav_associations"><a href="/pages/associations.html">Les associations</a></li>
+                <li id="nav_contact"><a href="/pages/contact.html">Nous contacter</a></li>
             </ul>
         </nav>
-        <article>
+        <article id="projects_content">
             <h1>Nos projets</h1>
             <h2>Année 2021-2022</h2>
             <div class="projet_mois" id="mois_novembre">
@@ -33,7 +35,7 @@
                         <img src="/assets/img/projets/novembre/cih_materiel.png" alt="">
                     </li>
                     <li class="project_card">
-                        <p>Partenariat avec Pokawa (Restaurant Place du Marché)</p>
+                        <p>Partenariat avec Pokawa</p>
                         <img src="/assets/img/projets/novembre/pokawa.png" alt="">
                     </li>
                 </ul>
@@ -41,48 +43,69 @@
             <div class="projet_mois" id="mois_decembre">
                 <h3>Décembre 2021</h3>
                 <ul>
-                    <li>Vente de viennoiseries pour le Téléthon</li>
-                    <li>Journée Pull de Noël</li>
-                    <li>Sortie à DisneyLand Paris</li>
+                    <li class="project_card">
+                        <p>Vente de viennoiseries pour le Téléthon</p>
+                    </li>
+                    <li class="project_card">
+                        <p>Journée Pull de Noël</p>
+                    </li>
+                    <li class="project_card">
+                        <p>Sortie à DisneyLand Paris</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_fevrier">
                 <h3>Février 2022</h3>
                 <ul>
-                    <li>Subvention de matériel pour la création d'un potager pour Terra Hoche</li>
+                    <li class="project_card">
+                        <p>Subvention de matériel pour la création d'un potager pour Terra Hoche</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_mars">
                 <h3>Mars 2022</h3>
                 <ul>
-                    <li>Découverte des spécialités pour les Secondes</li>
+                    <li class="project_card">
+                        <p>Découverte des spécialités pour les Secondes</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_avril">
                 <h3>Avril 2022</h3>
                 <ul>
-                    <li>Sortie au Catacombes de Paris</li>
+                    <li class="project_card">
+                        <p>Sortie au Catacombes de Paris</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_mai">
                 <h3>Mai 2022</h3>
                 <ul>
-                    <li>Sortie au Parc Asterix</li>
-                    <li>Journée Portes Ouvertes du Lycée</li>
+                    <li class="project_card">
+                        <p>Sortie au Parc Asterix</p>
+                    </li>
+                    <li class="project_card">
+                        <p>Journée Portes Ouvertes du Lycée</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_juin">
                 <h3>Juin 2022</h3>
                 <ul>
-                    <li>Conférence de prévention sur les drogues et les addictions</li>
+                    <li class="project_card">
+                        <p>Conférence de prévention sur les drogues et les addictions</p>
+                    </li>
                 </ul>
             </div>
             <div class="projet_mois" id="mois_juillet">
                 <h3>Juillet 2022</h3>
                 <ul>
-                    <li>Bal de promo des Terminales</li>
+                    <li class="project_card">
+                        <p>Bal de promo des Terminales</p>
+                    </li>
                 </ul>
             </div>
         </article>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>

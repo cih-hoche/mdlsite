@@ -10,19 +10,21 @@
     <body>
         <header>
             <div class="headercontent">
-                <h1>Maison des lycéens de Hoche</h1>
+                <h1>
+                    <span s1>Maison</span> <span s2>des</span> <span s3>lycéens</span> <span s4>de</span> <span s5>Hoche</span>
+                </h1>
                 <img src="/assets/img/logo.png" alt="Logo MDL">
             </div>
         </header>
         <nav>
             <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/pages/projets.html">Nos projets</a></li>
-                <li><a href="/pages/associations.html">Les associations</a></li>
-                <li active><a href="/pages/contact.html">Nous contacter</a></li>
+                <li id="nav_home"><a href="/">Accueil</a></li>
+                <li id="nav_projects"><a href="/pages/projets.html">Nos projets</a></li>
+                <li id="nav_associations"><a href="/pages/associations.html">Les associations</a></li>
+                <li active id="nav_contact"><a href="/pages/contact.html">Nous contacter</a></li>
             </ul>
         </nav>
-        <article>
+        <article id="contact_content">
             <h1>Nous contacter</h1>
             <h3>Vous pouvez nous contacter de plusieurs manières :</h3>
             <ul>
@@ -35,5 +37,6 @@
                 <li>Secrétaire : <b>Mathéo PELTIER</b> (<a href="mailto:peltier.matheo@gmail.com">peltier.matheo@gmail.com</a>)</li>
             </ul>
         </article>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>

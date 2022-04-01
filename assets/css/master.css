@@ -27,6 +27,22 @@ header h1 {
     text-transform: uppercase;
 }
 
+header h1 span[s1] {
+    color: #ffde59;
+}
+header h1 span[s2] {
+    color: #ff914d;
+}
+header h1 span[s3] {
+    color: #ff5757;
+}
+header h1 span[s4] {
+    color: #af51e1;
+}
+header h1 span[s5] {
+    color: #004aad;
+}
+
 header img {
     width: 15%;
     position: relative;
@@ -51,6 +67,7 @@ nav ul li {
     background: #eee;
     padding: 10px 20px;
     transition: .2s;
+    position: relative;
 }
 
 nav ul li a {
@@ -60,6 +77,19 @@ nav ul li a {
 
 nav ul li:hover, nav ul li[active] {
     background: #ddd;
+}
+
+nav ul li#nav_home:hover, nav ul li#nav_home[active] {
+    background: rgba(175, 81, 225, .7);
+}
+nav ul li#nav_projects:hover, nav ul li#nav_projects[active] {
+    background: rgba(255, 87, 87, .7);
+}
+nav ul li#nav_associations:hover, nav ul li#nav_associations[active] {
+    background: rgba(0, 74, 173, .7);
+}
+nav ul li#nav_contact:hover, nav ul li#nav_contact[active] {
+    background: rgba(0, 128, 55, .7);
 }
 
 article {
@@ -75,6 +105,10 @@ article h1 {
     padding-bottom: 15px;
     text-align: center;
     font-size: 32px;
+}
+
+article#home_content {
+    text-align: center;
 }
 
 .projet_mois ul {
@@ -109,6 +143,7 @@ article h1 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 0;
+    text-align: center;
 }
 
 .project_card img {
